@@ -8,3 +8,15 @@
     font-family: Roboto;
     src: url(./fonts/Roboto-Regular.woff);
 }
+
+.main {
+
+}
+
+.main__poster {
+    display: flex;
+}
+
+.main__poster-title {
+    width: 30%;
+}
