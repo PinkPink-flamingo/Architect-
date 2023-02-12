@@ -5,18 +5,289 @@
 }
 
 @font-face {
+    font-family: Roboto-bold;
+    src: url(/fonts/Roboto-Bold.woff);
+}
+@font-face {
     font-family: Roboto;
-    src: url(./fonts/Roboto-Regular.woff);
+    src: url(/fonts/Roboto-Regular.woff);
+}
+@font-face {
+    font-family: Roboto-black;
+    src: url(/fonts/Roboto-Black.woff2);
 }
 
 .main {
+margin-left: 7%;
+margin-right: 7%;
+}
 
+a {
+    text-decoration: none;
+}
+
+h2{
+    margin: 0;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 64px;
+line-height: 64px;
+
+color: #BDBDBD;
+}
+
+h3 {
+    margin: 0;
+    font-family: 'Roboto-bold';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+
+color: #333333;
+}
+p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 25px;
+
+color: #000000;
 }
 
 .main__poster {
     display: flex;
+    margin-bottom: 10%;
 }
 
 .main__poster-title {
-    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+
 }
+.main__poster-picter {
+    display: flex;
+background-image: url(/assets/images/main_poster.png);
+height: 829px;
+width: 770px;
+align-items: end;
+    }
+
+.button__white, .button__dark, .button__transparent {
+    display: inline-flex;
+align-items: center;
+justify-content: space-evenly;
+width: 222px;
+height: 71px;
+left: 0px;
+top: 0px;
+border: none;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+
+letter-spacing: 0.2em;
+text-transform: uppercase;
+
+}
+
+.button__white {
+background: #FFFFFF;
+color: #333333;
+}
+
+.button__transparent {
+    margin-left: 5%;
+    background: transparent;
+    color: #FFFFFF;
+}
+
+.button__dark {
+    color: #FFFFFF;
+    background: #333333;
+    }
+
+.main__about {
+    display: grid;
+grid-template-columns: 1fr 1fr 2fr;
+grid-template-rows: 2fr 1fr;
+grid-template-areas: "pic1 pic3 text"
+"pic2 pic3 text";
+
+align-items: center;
+padding: 2em;
+gap: 1.5em;
+margin-bottom: 10%;
+
+    background: #FBFBFB;
+}
+
+.main__about-pic1 {
+    grid-area: pic1;
+}
+
+.main__about-pic2 {
+    grid-area: pic2;
+    
+}
+
+.main__about-pic3 {
+    grid-area: pic3;
+}
+
+.main__about-text {
+    grid-area: text;
+
+}
+
+.main__massion-grid {
+    display: grid;
+    
+grid-template-columns: 1fr 2fr 1fr 3fr;
+gap: 2em;
+margin-bottom: 10%;
+margin-top: 3%;
+justify-items: center;
+}
+
+.main__massion-namber {
+    height: 140px;
+    margin: 0%;
+    font-family: 'Roboto-black';
+font-style: normal;
+font-weight: 900;
+font-size: 200px;
+line-height: 234px;
+
+color: #F2F2F2;
+}
+
+.main__massion-txt{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 36px;
+color: #333333;
+}
+
+.main__projects__gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1 fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "proj1 proj1 proj2 proj2"
+    "proj3 proj4 proj4 proj5";
+
+    gap: 1.5em;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    
+    }
+    
+
+.main__projects__gallery-1 {
+    grid-area: proj1;
+    background-image: url(/assets/images/main_proj1.png);
+width: 100%;
+background-size: cover;
+}
+
+.main__projects__gallery-title {
+    width: 233px;
+    margin-top: 5%;
+    margin-left: 12%;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 64px;
+
+color: #FFFFFF;
+}
+
+.main__projects__gallery-1:hover {
+
+    background: #333333;
+    opacity: 0.8; 
+}
+
+.main__projects__gallery-2 {
+    grid-area: proj2;
+    background-image: url(/assets/images/main_proj2.png);
+width: 100%;
+background-size: cover;
+}
+
+.main__projects__gallery-3 {
+    grid-area: proj3;
+}
+.main__projects__gallery-4 {
+    grid-area: proj4;
+}
+.main__projects__gallery-5 {
+    grid-area: proj5;
+}
+
+.main__projects-button {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10%;
+}
+
+.main__contact__form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main__contact__form-form {
+    width: 33%;
+}
+
+.main__contact-pic {
+height: 80%;
+width: 65%;
+}
+
+input, textarea {
+    width: 20em;
+border: none;
+padding-left: 2em;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.04em;
+
+color: #8D8D8D;
+    background: #F3F3F3;
+}
+
+input {
+    height: 3em;
+    margin: 0.5em;
+}
+
+textarea {
+height: 9.5em;
+width: 20em;
+padding-top: 1em;
+margin: 0.5em 0.5em 5em 0.5em;
+}
+
+.main__contact-pic {
+    margin-bottom: 5%;
+}
+
+/* 
+input::after, textarea::after {
+    content: "*";
+    color: #C30000;
+} */
