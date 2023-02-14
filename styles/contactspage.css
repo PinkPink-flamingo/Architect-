@@ -13,7 +13,6 @@
     src: url(/Architect-/fonts/Roboto-Black.woff2);
 }
 
-
 .container {
     display: grid;
     grid-template-columns: 35% 45%;
@@ -43,8 +42,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 4em;
     color: #BDBDBD;
 }
 
@@ -55,8 +53,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 4em;
     color: #333333;
 }
 
@@ -72,13 +69,11 @@
     border: 0 none;
 }
 
-/* .compnay-name {
-    font-style: italic;
-} */
 
 button {
     grid-column: 1/2;
     grid-row: 3/4;
+    /* width: 90%; */
     width: 221.81px;
     height: 71px;
     background-color: #2C2C2C;
@@ -89,8 +84,50 @@ img {
     grid-area: 1/2/4/3;
     margin-top: 32px;
     margin-bottom: 91px;
-    margin-left: 185px;
+    margin-left: 100px;
 }
+
+@media screen and (min-width:768px) and (max-width:1023) {
+    .container {
+        display: grid;
+        grid-template-columns: 35% 45%;
+        grid-template-rows: 1fr 1fr 1fr;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        /* gap: 2rem; */
+    }
+
+    .footer {
+        display: none;
+    }
+
+
+}
+
+@media screen and (max-width:767px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 25vh 25vh 10vh 40vh;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+        /* gap: 2rem; */
+    }
+
+    img {
+        grid-area: 4/1/5/2;
+        max-width: 100%;
+        margin: 10px;
+    }
+
+
+    .footer {
+        display: none;
+    }
+}
+
 
 .footer {
     background-color: #2C2C2C;

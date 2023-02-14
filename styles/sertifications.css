@@ -33,26 +33,30 @@
 
 .title-1 {
     border: 1px solid red;
-    margin-top: 63px;
+    margin-top: 25%;
     margin-bottom: 0;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 4em;
     color: #BDBDBD;
 }
 
 .title-2 {
     border: 1px solid red;
     margin-top: 0;
-    margin-bottom: 693px;
+    margin-bottom: 80vw;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 4em;
     color: #333333;
+}
+
+@media screen and (max-width:767px) {
+    .footer {
+        display: none;
+    }
 }
 
 
