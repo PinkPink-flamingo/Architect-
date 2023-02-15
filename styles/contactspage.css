@@ -1,33 +1,14 @@
-@font-face {
-    font-family: Roboto-bold;
-    src: url(/Architect-/fonts/Roboto-Bold.woff);
-}
-
-@font-face {
-    font-family: Roboto;
-    src: url(/Architect-/fonts/Roboto-Regular.woff);
-}
-
-@font-face {
-    font-family: Roboto-black;
-    src: url(/Architect-/fonts/Roboto-Black.woff2);
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100;400&display=swap');
 
 .container {
     display: grid;
     grid-template-columns: 35% 45%;
     grid-template-rows: 1fr 1fr 1fr;
     width: 80%;
+    padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
     /* gap: 2rem; */
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    padding-top: 29px;
 }
 
 .title {
@@ -40,7 +21,6 @@
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 300;
     font-size: 4em;
     color: #BDBDBD;
@@ -62,7 +42,7 @@
     grid-row: 2/3;
     width: 221.81px;
     font-family: 'Roboto';
-    /* font-weight: 700; */
+    font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     color: #333333;

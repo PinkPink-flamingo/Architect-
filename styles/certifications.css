@@ -6,15 +6,9 @@
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
+    padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
-}
-
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    padding-top: 29px;
 }
 
 .title-1 {
