@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Roboto;
+    src: url(./fonts/Roboto-Bold.woff);
+    src: url(./fonts/Roboto-Black.woff2);
+    src: url(./fonts/Roboto-Regular.woff);
+
+} 
+
+.footer {
+    padding-left: 7%;
+    padding-right:7%;
+    background-color:#2C2C2C ;
+}
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+    color:#FFFFFF;
+    /* padding-left: 116px; */
+    padding-top: 58px;
+    /* padding-right: 218px; */
+}
+.footer__menu-list {
+    display: flex;
+    flex-direction: column;
+    /* width: 100px; */
+    /* height: 200px; */
+    list-style: none;
+    justify-content: space-between;
+    /* margin-bottom: 60px; */
+}
+.contacts__list {
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.list-item {
+    color:#FFFFFF;
+
+}
+.contacts__list-item {
+    /* width: 200px; */
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.media__list {
+    /* width: 150px; */
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.text_footer {
+    padding-left: 591px;
+    padding-top: 24px;
+    padding-right: 694px;
+    padding-bottom: 24px;
+}
