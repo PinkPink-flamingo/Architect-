@@ -1,16 +1,10 @@
-@font-face {
-    font-family: Roboto-bold;
-    src: url(/Architect-/fonts/Roboto-Bold.woff);
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100;400&display=swap');
 
-@font-face {
-    font-family: Roboto;
-    src: url(/Architect-/fonts/Roboto-Regular.woff);
-}
-
-@font-face {
-    font-family: Roboto-black;
-    src: url(/Architect-/fonts/Roboto-Black.woff2);
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 29px;
 }
 
 .container {
@@ -24,29 +18,20 @@
 }
 
 img {
+    width: 100%;
     max-width: 100%;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: stretch;
-    padding-top: 29px;
-}
-
 .title-1 {
-    border: 1px solid red;
     margin-top: 25%;
     margin-bottom: 0;
     font-family: 'Roboto';
-    /* font-style: light; */
     font-weight: 300;
     font-size: 4em;
     color: #BDBDBD;
 }
 
 .title-2 {
-    border: 1px solid red;
     margin-top: 0;
     margin-bottom: 22%;
     font-family: 'Roboto';
@@ -62,7 +47,6 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid red;
     gap: 2rem;
 }
 
@@ -71,19 +55,15 @@ img {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     justify-items: stretch;
-    /* flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center; */
     gap: 2rem;
 }
 
 .main-content__text {
     font-family: Roboto;
-    /* font-size: 1rem; */
     font-size: 16px;
     font-weight: 300;
-    /* line-height: 25px; */
     letter-spacing: 0em;
+    line-height: 1.6rem;
     text-align: left;
 }
 
@@ -103,9 +83,8 @@ img {
     .main-content__text {
         font-family: Roboto;
         font-size: 1rem;
-        /* font-size: 1.562em; */
         font-weight: 300;
-        /* line-height: 25px; */
+        line-height: 1rem;
         letter-spacing: 0em;
         text-align: left;
     }
@@ -113,27 +92,4 @@ img {
     .footer {
         display: none;
     }
-}
-
-.footer {
-    background-color: #2C2C2C;
-}
-
-.footer_section {
-    display: flex;
-    justify-content: space-between;
-    color: #FFFFFF;
-    padding-left: 116px;
-    padding-top: 58px;
-    padding-right: 218px;
-}
-
-.footer__menu-list {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 200px;
-    list-style: none;
-    justify-content: space-between;
-    margin-bottom: 60px;
 }
