@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100;400&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    padding-top: 29px;
+}
+
+.title-1 {
+    margin-top: 25%;
+    margin-bottom: 0;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 4em;
+    color: #BDBDBD;
+}
+
+.title-2 {
+    margin-top: 0;
+    margin-bottom: 80vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
+    color: #333333;
+}
+
+@media screen and (max-width:767px) {
+    .footer {
+        display: none;
+    }
+}
