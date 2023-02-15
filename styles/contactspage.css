@@ -8,7 +8,6 @@
     padding-top: 5%;
     padding-left: 10%;
     padding-right: 10%;
-    /* gap: 2rem; */
 }
 
 .title {
@@ -17,7 +16,6 @@
 }
 
 .title-1 {
-    border: 1px solid red;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Roboto';
@@ -27,7 +25,6 @@
 }
 
 .title-2 {
-    border: 1px solid red;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Roboto';
@@ -41,21 +38,50 @@
     grid-column: 1/2;
     grid-row: 2/3;
     width: 221.81px;
+    border: 0 none;
+}
+
+.company-name {
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     color: #333333;
-    border: 0 none;
+}
+
+.company-adress {
+    margin-bottom: 15%;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.co-ordinates {
+    margin-bottom: 15%;
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.mail-adress {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333333;
 }
 
 
 button {
     grid-column: 1/2;
     grid-row: 3/4;
-    /* width: 90%; */
     width: 221.81px;
     height: 71px;
+    margin-top: 5%;
     background-color: #2C2C2C;
     color: white;
 }
@@ -75,7 +101,6 @@ img {
         width: 80%;
         padding-left: 10%;
         padding-right: 10%;
-        /* gap: 2rem; */
     }
 
     .footer {
@@ -93,41 +118,18 @@ img {
         width: 80%;
         padding-left: 10%;
         padding-right: 10%;
-        /* gap: 2rem; */
     }
 
     img {
         grid-area: 4/1/5/2;
         max-width: 100%;
-        margin: 10px;
+        margin-top: 32px;
+        margin-bottom: 91px;
+        margin-left: 0;
     }
 
 
     .footer {
         display: none;
     }
-}
-
-
-.footer {
-    background-color: #2C2C2C;
-}
-
-.footer_section {
-    display: flex;
-    justify-content: space-between;
-    color: #FFFFFF;
-    padding-left: 116px;
-    padding-top: 58px;
-    padding-right: 218px;
-}
-
-.footer__menu-list {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    height: 200px;
-    list-style: none;
-    justify-content: space-between;
-    margin-bottom: 60px;
 }
