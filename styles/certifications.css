@@ -5,10 +5,8 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    width: 80%;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 .title-1 {

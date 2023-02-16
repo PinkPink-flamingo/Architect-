@@ -5,17 +5,17 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-items: flex-start;
-    width: 80%;
-    padding-top: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
 }
 
 body {
     width: 100%;
 }
 
-img {
+.main-content__image1,
+.main-content__image2,
+.main-content__image3 {
     width: 100%;
     max-width: 100%;
 }
