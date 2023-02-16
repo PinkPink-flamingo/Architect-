@@ -11,6 +11,10 @@
     padding-right: 10%;
 }
 
+body {
+    width: 100%;
+}
+
 img {
     width: 100%;
     max-width: 100%;

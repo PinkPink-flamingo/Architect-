@@ -47,7 +47,7 @@ line-height: 64px;
 
 color: #333333;
 }
-p {
+.main-p {
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
@@ -60,6 +60,7 @@ color: #000000;
 .main__poster {
     display: flex;
     margin-bottom: 10%;
+    margin-top: 3%;
 }
 
 .main__poster-title {
@@ -180,7 +181,7 @@ color: #333333;
 
 .main__projects__gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1 fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "proj1 proj1 proj2 proj2"
     "proj3 proj4 proj4 proj5";
@@ -238,6 +239,10 @@ background-size: cover;
 .main__projects-button {
     display: flex;
     justify-content: end;
+    margin-bottom: 10%;
+}
+
+.main__contact {
     margin-bottom: 10%;
 }
 
