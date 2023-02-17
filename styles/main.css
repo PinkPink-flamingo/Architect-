@@ -48,6 +48,7 @@ line-height: 64px;
 color: #333333;
 }
 .main-p {
+    margin-top: 2em;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;
@@ -118,12 +119,12 @@ color: #333333;
 .main__about {
     display: grid;
 grid-template-columns: 1fr 1fr 2fr;
-grid-template-rows: 2fr 1fr;
+grid-template-rows: 70% 30%;
 grid-template-areas: "pic1 pic3 text"
 "pic2 pic3 text";
 
 align-items: center;
-padding: 2em;
+padding: 1em 4em 0 6em;
 gap: 1.5em;
 margin-bottom: 10%;
 
@@ -181,7 +182,7 @@ color: #333333;
 
 .main__projects__gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 25% 25% 16% 34%;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "proj1 proj1 proj2 proj2"
     "proj3 proj4 proj4 proj5";
@@ -222,7 +223,7 @@ color: #FFFFFF;
 .main__projects__gallery-2 {
     grid-area: proj2;
     background-image: url(/assets/images/main_proj2.png);
-width: 100%;
+/* width: 100%; */
 background-size: cover;
 }
 
@@ -256,8 +257,7 @@ background-size: cover;
 }
 
 .main__contact-pic {
-height: 80%;
-width: 65%;
+width: 60%;
 }
 
 input, textarea {
