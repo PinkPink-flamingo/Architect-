@@ -17,12 +17,7 @@
     src: url(/fonts/Roboto-Black.woff2);
 }
 
-body {
-    background-color: aquamarine;
-}
-
 .main {
-    border: #000000 1px solid;
 margin-left: 7%;
 margin-right: 7%;
 }
@@ -188,7 +183,7 @@ color: #333333;
 
 .main__projects__gallery {
     display: grid;
-    grid-template-columns: 25% 25% 16% 34%;
+    grid-template-columns: 25% 21% 16% 32%;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "proj1 proj1 proj2 proj2"
     "proj3 proj4 proj4 proj5";
@@ -203,12 +198,11 @@ color: #333333;
 .main__projects__gallery-1 {
     grid-area: proj1;
     background-image: url(/assets/images/main_proj1.png);
-width: 100%;
 background-size: cover;
 }
 
 .main__projects__gallery-title {
-    width: 233px;
+    width: 4em;
     margin-top: 5%;
     margin-left: 12%;
     font-family: 'Roboto';
@@ -229,18 +223,23 @@ color: #FFFFFF;
 .main__projects__gallery-2 {
     grid-area: proj2;
     background-image: url(/assets/images/main_proj2.png);
-/* width: 100%; */
 background-size: cover;
 }
 
 .main__projects__gallery-3 {
     grid-area: proj3;
+    background-image: url(/assets/images/main_proj3.png);
+    background-size: cover;
 }
 .main__projects__gallery-4 {
     grid-area: proj4;
+    background-image: url(/assets/images/main_proj4.png);
+    background-size: cover;
 }
 .main__projects__gallery-5 {
     grid-area: proj5;
+    background-image: url(/assets/images/main_proj5.png);
+    background-size: cover;
 }
 
 .main__projects-button {
@@ -263,7 +262,10 @@ background-size: cover;
 }
 
 .main__contact-pic {
-width: 60%;
+    width: 67%;
+    background-image: url(/assets/images/main_contact.png);
+    background-repeat: none;
+    margin: 0.5em 0em 9em 0em;
 }
 
 input, textarea {
@@ -283,22 +285,47 @@ color: #8D8D8D;
 
 input {
     height: 3em;
-    margin: 0.5em;
+    margin: 0.5em 0.5em 0.5em 0em;
 }
 
 textarea {
 height: 9.5em;
 width: 20em;
 padding-top: 1em;
-margin: 0.5em 0.5em 5em 0.5em;
+margin: 0.5em 0.5em 5em 0em;
+}
+
+@media screen and (max-width:1023px) {
+    .main__about {
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "pic1 text pic3"
+    "pic2 text pic3";
+}
+}
+
+@media screen and (max-width:767px) {
+
+    .main__poster {
+        flex-direction: column;
+
+    }
+
+    .main__about {
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-areas: "text pic1 pic3"
+    " text pic2 pic3";
+}
+
+.main__massion-grid {
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr 1fr;
 }
 
 .main__contact-pic {
-    margin-bottom: 5%;
+    background: none;
 }
 
-/* 
-input::after, textarea::after {
-    content: "*";
-    color: #C30000;
-} */
+.footer {
+    display: none;
+}
+}

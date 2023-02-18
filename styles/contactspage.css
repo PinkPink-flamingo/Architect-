@@ -90,7 +90,7 @@ body {
 }
 
 .map {
-    background-image: url(/Architect-/assets/images/image14.png);
+    background-image: url(/assets/images/image14.png);
     background-repeat: no-repeat;
     background-size: cover;
     /* background-size: contain; */
@@ -133,7 +133,7 @@ body {
 
 
     .map {
-        background-image: url(/Architect-/assets/images/image14.png);
+        background-image: url(/assets/images/image14.png);
         background-repeat: no-repeat;
         background-size: cover;
         grid-area: 4/1/5/2;
