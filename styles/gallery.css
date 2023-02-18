@@ -1,16 +1,16 @@
-/* @font-face {
-    font-family: Roboto;
-    src: url(./fonts/Roboto-Bold.woff);
-    src: url(./fonts/Roboto-Black.woff2);
-    src: url(./fonts/Roboto-Regular.woff);
-} */
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100;400&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100;400&display=swap');
 * {
     text-decoration: none;
     margin: 0;
     padding: 0;
     font-family: Roboto;
+}
+.main {
+
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 92px;
 }
 
 
@@ -19,37 +19,59 @@
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 260px);
     gap:2rem; 
-    margin-left:7%;
-    margin-right: 7%;
     margin-top: 60px;
     margin-bottom: 75px;
+}
+.image1 {
+    background-image: url(/assets/images/Rectangle22.png);
+}
+.image2 {
+    background-image: url(/assets/images/Rectangle23.png);
+}
+.image3 {
+    background-image: url(/assets/images/Rectangle24.png);
+}
+.image4 {
+    background-image:url(/assets/images/Rectangle25.png);
+}
+.image5 {
+    background-image: url(/assets/images/Rectangle26.png);
+}
+.image6 {
+    background-image: url(/assets/images/Rectangle27.png);
+}
+.image7 {
+    background-image: url(/assets/images/Rectangle28.png);
+}
+.image8 {
+    background-image: url(/assets/images/Rectangle29.png);
+}
+.image9 {
+    background-image: url(/assets/images/Rectangle30.png);
+}
+.image10 {
+    background-image: url(/assets/images/Rectangle31.png);
 }
 .numbers {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 7%;
     margin-top: 60px;
-    margin-right: 1007px;
+    margin-right: 70%;
     margin-bottom: 110px;
 }
 .text1 {
-    margin-left: 7%; 
-    margin-top: 92px;
-    font-style: Light;
-    font-size: 64px;
-    line-height: 64px;
-    line-height: 85%;
-    text-align: start;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 4em;
     color: #BDBDBD;
 }
+
 .text2 {
-    margin-left: 7%; ;
-    font-style: bold;
-    font-size: 64px;
-    line-height: 64px;
-    line-height: 85%;
-    text-align: start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
     color: #333333;
 }
 .text3 {
@@ -68,13 +90,31 @@
     text-align: start;
     padding-bottom: 16px;
 }
-/* .text_footer {
-    padding-left: 591px;
-    padding-top: 24px;
-    padding-right: 694px;
-    padding-bottom: 24px;
-} */
+@media screen and (max-width:1023px) {
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 260px);
+        gap:3rem; 
+        margin-top: 60px;
+        margin-bottom: 75px;
+    }
 
+}
+@media screen and (max-width:767px) {
+    .photos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 260px);
+        gap:3rem; 
+        margin-top: 60px;
+        margin-bottom: 75px;
+    }
+
+    .footer {
+        display: none;
+    }
+}
 
 
 
