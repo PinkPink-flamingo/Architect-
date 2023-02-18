@@ -17,7 +17,12 @@
     src: url(/fonts/Roboto-Black.woff2);
 }
 
+body {
+    background-color: aquamarine;
+}
+
 .main {
+    border: #000000 1px solid;
 margin-left: 7%;
 margin-right: 7%;
 }
@@ -48,7 +53,8 @@ line-height: 64px;
 color: #333333;
 }
 .main-p {
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 300;

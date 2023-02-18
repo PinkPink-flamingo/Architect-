@@ -13,11 +13,14 @@
 }
  
 .footer {
-    padding-left: 7%;
-    padding-right:10%;
+    /* padding-left: 7%; */
+    /* padding-right:10%; */
+ 
     background-color:#2C2C2C ;
 }
 .footer_section {
+    padding-right: 7%;
+    padding-left: 7%;
     display: flex;
     justify-content: space-between;
     color:#FFFFFF;
@@ -56,11 +59,15 @@
     list-style: none;
 }
 .text_footer {
-    font-family: "Roboto";
-    padding-left: 591px;
+    /* font-family: "Roboto"; */
+    /* padding-left: 591px;
     padding-top: 24px;
     padding-right: 694px;
-    padding-bottom: 24px;
+    padding-bottom: 24px; */
+
+display: flex;
+justify-content: center;
+padding: 2.5em;
 }
 
 .text3 {
@@ -78,4 +85,8 @@
     line-height: 146%;
     text-align: start;
     padding-bottom: 16px;
+}
+
+.the_end {
+    border-top: 1px solid rgba(200, 200, 200, 0.5);
 }
