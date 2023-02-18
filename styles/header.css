@@ -35,13 +35,7 @@
 
 }
 
-.menu__list-item1 {
-    color: black;
-    font-size: 12px;
-
-}
-
-.menu__list-item1:hover {
+.menu__list-item:hover {
     border-bottom: solid grey 1px;
     border-top: solid grey 1px;
 }
