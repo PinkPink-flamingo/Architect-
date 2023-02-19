@@ -32,7 +32,7 @@
     justify-content: space-between;
     list-style: none;
     margin-right: 10%;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 
 
 }
@@ -44,8 +44,18 @@
 
 
 .menu__list-item {
-    color: black;
+    padding: 0.2em 1.2em 0.2em 1.2em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 12px;
+    line-height: 12px;
+
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+
+    color: black;
+    
 }
 
 #burger,
