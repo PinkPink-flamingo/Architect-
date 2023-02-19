@@ -23,11 +23,13 @@
 
 
 }
+
 .header__menu {
     width: 70%;
 }
+
 .menu__list {
-    
+
     display: flex;
     justify-content: space-between;
     list-style: none;
@@ -55,7 +57,7 @@
     text-transform: uppercase;
 
     color: black;
-    
+
 }
 
 #burger,
@@ -71,7 +73,7 @@
         width: 30px;
         text-align: center;
         right: 20px;
-        top: 40px;
+        top: 20px;
         margin: 1.6em;
     }
 
