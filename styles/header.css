@@ -23,14 +23,16 @@
 
 
 }
-
+.header__menu {
+    width: 70%;
+}
 .menu__list {
-    width: 50%;
+    
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin-right: 269px;
-    margin-left: 330px;
+    margin-right: 10%;
+    margin-left: 10%;
 
 
 }
@@ -56,7 +58,6 @@
     [for=burger] {
         display: block;
         position: absolute;
-        /* position: fixed; */
         width: 30px;
         text-align: center;
         right: 20px;
@@ -71,7 +72,6 @@
     nav {
         display: none;
         position: absolute;
-        /* position: fixed; */
         right: 70px;
         top: 0;
         margin-top: 30px;

@@ -24,33 +24,43 @@
 }
 .image1 {
     background-image: url(/assets/images/Rectangle22.png);
+    background-repeat: no-repeat;
 }
 .image2 {
     background-image: url(/assets/images/Rectangle23.png);
+    background-repeat: no-repeat;
 }
 .image3 {
     background-image: url(/assets/images/Rectangle24.png);
+    background-repeat: no-repeat;
 }
 .image4 {
     background-image:url(/assets/images/Rectangle25.png);
+    background-repeat: no-repeat;
 }
 .image5 {
     background-image: url(/assets/images/Rectangle26.png);
+    background-repeat: no-repeat;
 }
 .image6 {
     background-image: url(/assets/images/Rectangle27.png);
+    background-repeat: no-repeat;
 }
 .image7 {
     background-image: url(/assets/images/Rectangle28.png);
+    background-repeat: no-repeat;
 }
 .image8 {
     background-image: url(/assets/images/Rectangle29.png);
+    background-repeat: no-repeat;
 }
 .image9 {
     background-image: url(/assets/images/Rectangle30.png);
+    background-repeat: no-repeat;
 }
 .image10 {
     background-image: url(/assets/images/Rectangle31.png);
+    background-repeat: no-repeat;
 }
 .numbers {
     display: flex;
