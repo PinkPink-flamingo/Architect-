@@ -1,2 +1,2 @@
 # Architect-
-![image](/assets/images/main_about1.png)
+![image](/assets/images/Architect.png)
