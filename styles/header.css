@@ -34,16 +34,12 @@
     justify-content: space-between;
     list-style: none;
     margin-right: 10%;
-    /* margin-left: 10%; */
-
-
 }
 
 .menu__list-item:hover {
     border-bottom: solid grey 1px;
     border-top: solid grey 1px;
 }
-
 
 .menu__list-item {
     padding: 0.2em 1.2em 0.2em 1.2em;
@@ -100,7 +96,6 @@
 
     #burger:checked+label+nav {
         display: block;
-        /* animation: show .5s ease; */
     }
 
     #burger:checked+[for=burger]::before {

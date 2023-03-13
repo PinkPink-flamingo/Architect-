@@ -5,7 +5,7 @@
     padding: 0;
     font-family: "Roboto";
 }
- 
+
 .main {
     display: flex;
     flex-direction: column;
@@ -49,14 +49,7 @@ letter-spacing: 0.2em;
 text-transform: uppercase;
 
 }
-.numbers {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 60px;
-    margin-right: 950px;
-    margin-bottom: 110px;
-}
+
 
 .text1 {
     font-family: 'Roboto';
@@ -66,7 +59,7 @@ text-transform: uppercase;
 }
 
 .text2 {
-   margin-bottom: 60px;
+    margin-bottom: 60px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;

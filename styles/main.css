@@ -17,7 +17,16 @@ a {
     text-decoration: none;
 }
 
-h2{
+.main__title-1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4em;
+    color: #333333;
+}
+
+.main__title-2{
     margin-top: 0;
     margin-bottom: 0;
     font-weight: 300;
@@ -25,15 +34,6 @@ h2{
     color: #BDBDBD;
 }
 
-h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 4em;
-    color: #333333;
-
-}
 .main-p {
     margin-top: 1em;
     margin-bottom: 1em;
@@ -249,7 +249,7 @@ background-size: cover;
 .main__contact-pic {
     width: 67%;
     background-image: url(/assets/images/main_contact.png);
-    background-repeat: none;
+    background-repeat: no-repeat;
     margin: 0.5em 0em 9em 0em;
 }
 
