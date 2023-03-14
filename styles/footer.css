@@ -1,10 +1,5 @@
-@font-face {
-    font-family: Roboto;
-    src: url(./fonts/Roboto-Bold.woff);
-    src: url(./fonts/Roboto-Black.woff2);
-    src: url(./fonts/Roboto-Regular.woff);
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100;400&display=swap');
 
-} 
 * {
     text-decoration: none;
     margin: 0;
@@ -15,7 +10,7 @@
 .footer {
     background-color:#2C2C2C ;
 }
-.footer_section {
+.footer__section {
     padding-right: 7%;
     padding-left: 7%;
     padding-top: 58px;
@@ -54,7 +49,7 @@
     justify-content: space-between;
     list-style: none;
 }
-.text_footer {
+.footer__text {
 display: flex;
 justify-content: center;
 padding: 2.5em;

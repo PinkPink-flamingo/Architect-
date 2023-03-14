@@ -78,7 +78,7 @@ body {
 }
 
 
-.button__dark {
+.button-dark {
     grid-column: 1/2;
     grid-row: 3/4;
     width: 222px;
@@ -139,7 +139,7 @@ body {
         color: #333333;
     }
 
-    .button__dark {
+    .button-dark {
         grid-column: 1/2;
         grid-row: 3/4;
     }

@@ -1,10 +1,4 @@
-@font-face {
-    font-family: Roboto;
-    src: url(./fonts/Roboto-Bold.woff);
-    src: url(./fonts/Roboto-Black.woff2);
-    src: url(./fonts/Roboto-Regular.woff);
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100;400&display=swap');
 
 * {
     text-decoration: none;
@@ -29,11 +23,9 @@
 }
 
 .menu__list {
-
     display: flex;
     justify-content: space-between;
     list-style: none;
-    margin-right: 10%;
 }
 
 .menu__list-item:hover {
@@ -87,11 +79,19 @@
         user-select: none;
     }
 
+    .header__menu {
+        width: 50%;
+    }
+
     .menu__list {
         display: block;
         margin: 0;
         padding: 0;
         list-style-type: none;
+    }
+
+    .menu__list-items {
+        text-align: end;
     }
 
     #burger:checked+label+nav {

@@ -57,12 +57,16 @@ body {
 }
 
 .main-content__text {
-    font-family: Roboto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    font-weight: 300;
-    letter-spacing: 0em;
-    line-height: 1.6rem;
-    text-align: left;
+    line-height: 156%;    
+    
+    color: #000000;
+
 }
 
 .main-content__image3 {
@@ -76,15 +80,6 @@ body {
         grid-template-rows: 1fr;
         justify-items: center;
         gap: 2rem;
-    }
-
-    .main-content__text {
-        font-family: Roboto;
-        font-size: 1rem;
-        font-weight: 300;
-        line-height: 1rem;
-        letter-spacing: 0em;
-        text-align: left;
     }
 
     .footer {

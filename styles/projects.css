@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&family=Roboto:wght@100;400&display=swap');
+
 * {
     text-decoration: none;
     margin: 0;
@@ -19,7 +20,7 @@
     margin-bottom: 60px;
     background-color: #FBFBFB;
 }
-.projects_description {
+.project__description {
     display: flex;
     flex-direction: column;
     justify-content: space-between ;
@@ -28,7 +29,7 @@
     padding-right: 70px;
     padding-bottom: 30px;
 }
-.button__white  {
+.project__button-white  {
 display: inline-flex;
 align-items: center;
 justify-content: space-evenly;
@@ -93,10 +94,15 @@ text-transform: uppercase;
     
 }
 .text6 {
-    font-weight: lighter;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 25px;
-    line-height: 133%;
+    line-height: 156%;    
+    
+    color: #000000;
     text-align: start;
 }
 @media screen and (max-width:1023px){
